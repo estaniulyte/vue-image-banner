@@ -53,8 +53,8 @@ export default {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  box-shadow: 0 0 0 100vw #c88d81b1;
-  background: #c88d81b1;
+  box-shadow: 0 0 0 100vw #000000e1;
+  background:#000000e1;
   transition: background 0.2s;
 }
 
