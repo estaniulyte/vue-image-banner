@@ -1,7 +1,7 @@
 {
   "name": "vue-image-banner",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
