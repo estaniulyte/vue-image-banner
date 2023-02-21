@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "add-dist-subtree": "git add dist && git commit -m 'adding dist subtree'",
-    "deploy-to-ghpages": "git subtree push --prefix dist origin gh-pages"
+    "deploy-to-ghpages": "git subtree push --prefix dist origin gh-pages",
+    "github-pages": "vite build && yarn add-dist-subtree && yarn deploy-to-ghpages"
   },
   "dependencies": {
     "pinia": "^2.0.28",
