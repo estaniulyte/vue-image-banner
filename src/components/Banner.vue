@@ -14,16 +14,13 @@ export default {
   data: () => ({
     leftPosition: 0,
     topPosition: 0,
-    overlayHalfWidth: 0,
     container: null,
     overlay: null
 
   }),
-  mounted() {
+  mounted () {
     this.container = document.getElementById('container')
     this.overlay = document.getElementById('overlay')
-
-    this.overlayHalfWidth = this.overlay.clientWidth / 2
   },
   methods:  {
     revealImage (e) {
