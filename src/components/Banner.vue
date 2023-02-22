@@ -1,7 +1,7 @@
 <template>
   <div class="search">
     <div class="search__image" id="container" ref="container" @mousemove="revealImage" @mouseleave="resetImage">
-      <img alt="cover" src="@/assets/picture.jpg">
+      <img alt="cover" src="@/assets/banner.jpg">
       <div class="spotlight spotlight__inactive" id="overlay" ref="overlay"></div>
       <div class="search__image--content">Hello</div>
     </div>
