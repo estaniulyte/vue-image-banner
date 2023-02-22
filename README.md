@@ -33,3 +33,6 @@ npm run build
 ```sh
 npm run lint
 ```
+
+Assets:
+- Banner picture from https://www.pexels.com/photo/woman-in-blue-button-up-shirt-sitting-on-green-sofa-4861361/
