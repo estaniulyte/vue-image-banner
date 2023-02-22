@@ -30,7 +30,7 @@ export default {
       this.$refs.overlay.style.backgroundImage = 'radial-gradient(circle at ' + (this.leftPosition*100/this.overlay.clientWidth) + "% " + (this.topPosition*100/this.overlay.clientHeight)+"%, transparent 160px, rgba(0, 0, 0, 0.78) 200px)"
     },
     resetImage () {
-      this.$refs.overlay.style.backgroundImage = 'radial-gradient(circle at 50% 50%, transparent 10px, rgba(0, 0, 0, 0.78) 220px)'
+      this.$refs.overlay.style.backgroundImage = 'radial-gradient(circle at 60% 50%, transparent 10px, rgba(0, 0, 0, 0.78) 220px)'
     }
   }
 }
@@ -68,7 +68,7 @@ export default {
 }
 
 .spotlight {
-  background-image: radial-gradient(circle at 50% 50%, transparent 10px, rgba(0, 0, 0, 0.78) 220px);
+  background-image: radial-gradient(circle at 60% 50%, transparent 10px, rgba(0, 0, 0, 0.78) 220px);
   border-radius: 16px;
   height: 100%;
   position: absolute;
