@@ -53,6 +53,19 @@ export default {
   margin: 0 auto;
   position: relative;
   margin-top: 20px;
+  color: white;
+
+  h1 {
+    display: flex;
+    // text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 5px;
+
+    .typed {
+      font-weight: 700;
+      color: rgb(18, 255, 200);
+    }
+  }
 
   img {
     width: 100%;
@@ -82,5 +95,17 @@ export default {
   &__inactive {
     animation: spotlightInactiveAnm 8s ease-in-out infinite
   }
+}
+
+input[type="search"] {
+  width: 50%;
+  border: 0px;
+  background: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  outline: none;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 </style>
