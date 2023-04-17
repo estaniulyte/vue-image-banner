@@ -3,7 +3,10 @@
     <div class="search__image" id="container" ref="container" @mousemove="revealImage" @mouseleave="resetImage">
       <img alt="cover" src="@/assets/banner.jpg">
       <div class="spotlight spotlight__inactive" id="overlay" ref="overlay"></div>
-      <div class="search__image--content">Hello</div>
+      <div class="search__image--content">
+        <h1>Search books by&#160<VueWriter :array="arr" /></h1>
+        <input type="search" />
+      </div>
     </div>
   </div>
 </template>
@@ -15,7 +18,8 @@ export default {
     leftPosition: 0,
     topPosition: 0,
     container: null,
-    overlay: null
+    overlay: null,
+    arr: ["keyword", "title", "author", "ISBN"]
 
   }),
   mounted () {
